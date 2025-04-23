@@ -47,7 +47,7 @@
   <section>
     <h2>Join the Vision</h2>
     <p>We’re looking for developers, designers, blockchain builders, and believers. Be part of the movement.</p>
-    <p>Email: your.email@example.com<br>
+    <p>Email: kenechukwu130@gmail.com<br>
     Discord: [your Discord link]<br>
     GitHub: [GitHub repo link]</p>
   </section>
