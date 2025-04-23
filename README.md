@@ -1,48 +1,61 @@
 body {
   margin: 0;
-  padding: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #111;
-  color: #eee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 1.5rem;
 }
 
 header {
-  text-align: center;
-  padding: 60px 20px;
-  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  background-color: #0b0c10;
+  color: #fff;
+  padding: 1rem 0;
 }
 
 header h1 {
-  font-size: 3rem;
-  color: #00ffcc;
+  margin: 0;
+  padding: 0;
 }
 
-header p {
-  font-size: 1.2rem;
-  color: #aaa;
+nav {
+  margin-top: 0.5rem;
 }
 
-section {
-  padding: 40px 20px;
-  max-width: 800px;
-  margin: auto;
-  border-bottom: 1px solid #333;
+nav a {
+  color: #66fcf1;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
 }
 
-section h2 {
-  color: #00ffcc;
-  margin-bottom: 10px;
+.hero {
+  background-color: #1f2833;
+  color: #fff;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.section {
+  padding: 3rem 0;
+}
+
+.section.dark {
+  background-color: #e1e1e1;
 }
 
 ul {
-  padding-left: 20px;
+  list-style: square inside;
 }
 
 footer {
   text-align: center;
-  padding: 20px;
-  background-color: #000;
-  color: #777;
-  font-size: 0.9rem;
+  padding: 1rem;
+  background-color: #0b0c10;
+  color: #fff;
 }
