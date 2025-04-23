@@ -1,59 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NOvA-X | Future of Finance</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <h1>NOvA-X</h1>
-    <p>Powering the Future of Financial Intelligence</p>
-  </header>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: #eee;
+  line-height: 1.6;
+}
 
-  <section>
-    <h2>What is NOvA-X?</h2>
-    <p>NOvA-X is an AI-powered financial system designed to transform how individuals and businesses manage, save, and invest money. It integrates secure blockchain technology, AI financial guidance, and a quantum-processing engine to deliver the future of finance—today.</p>
-  </section>
+header {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+}
 
-  <section>
-    <h2>Core Features</h2>
-    <ul>
-      <li><strong>Ghost Wallet:</strong> Anonymous savings vault powered by blockchain</li>
-      <li><strong>AI Guidance:</strong> Real-time financial coaching and automation</li>
-      <li><strong>FlatChain:</strong> A new kind of blockchain built for fiat, not crypto</li>
-      <li><strong>Quantum AI Engine:</strong> Ultra-fast decision making and prediction</li>
-    </ul>
-  </section>
+header h1 {
+  font-size: 3rem;
+  color: #00ffcc;
+}
 
-  <section>
-    <h2>Use Cases</h2>
-    <p>• Save anonymously with Ghost Wallet<br>
-    • Automate savings from your bank into NOvA-X<br>
-    • Get financial advice and alerts from AI<br>
-    • Handle transactions across the world instantly and securely</p>
-  </section>
+header p {
+  font-size: 1.2rem;
+  color: #aaa;
+}
 
-  <section>
-    <h2>Roadmap</h2>
-    <ul>
-      <li>Phase 1 – Blueprint & Team Building</li>
-      <li>Phase 2 – MVP Design and Testing</li>
-      <li>Phase 3 – Launch & Growth</li>
-    </ul>
-  </section>
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+  border-bottom: 1px solid #333;
+}
 
-  <section>
-    <h2>Join the Vision</h2>
-    <p>We’re looking for developers, designers, blockchain builders, and believers. Be part of the movement.</p>
-    <p>Email: your.email@example.com<br>
-    Discord: [your Discord link]<br>
-    GitHub: [GitHub repo link]</p>
-  </section>
+section h2 {
+  color: #00ffcc;
+  margin-bottom: 10px;
+}
 
-  <footer>
-    <p>&copy; 2025 NOvA-X. Built for the future.</p>
-  </footer>
-</body>
-</html>
+ul {
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+  color: #777;
+  font-size: 0.9rem;
+}
